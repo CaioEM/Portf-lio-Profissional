@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profissional</title>
+    <link href="/READEME.md/css/style.css" rel="stylesheet">
+    <link href="/READEME.md/css/reset.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <nav>
+                <!--<img src="/READEME.md/img/logo.png" alt="Logo Principal" >--->
+                <ul>
+                    <li data-scroll-nav="0" class="active"><a href="/READEME.md/html/index.html">Home</a></li>
+                    <li data-scroll-nav="1"><a href="/READEME.md/html/index.html">Sobre</a></li>
+                    <li data-scroll-nav="2"><a href="/READEME.md/html/index.html">Competências</a></li>
+                    <li data-scroll-nav="3"><a href="/READEME.md/html/index.html">Projetos</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section data-scroll-index="0" class="apresentacao">
+            <h2>Home | Apresentação</h2>
+            <p>Olá, meu nome é <span>Caio Mazzoleni</span><br>e sou estudante de programação.</p>
+            <a target="_blank" href="https://www.linkedin.com/in/caio-mazzoleni-55a69921b/"><img src="/READEME.md/img/linkedin.svg"></a>
+            <script>
+
+            </script>
+        </section>
+        <section data-scroll-index="1" class="sobre">
+            <h2>Sobre mim</h2>
+            <p>Sou o Caio, tenho 20 anos, resido em Campinas-SP e sou um jovem sedento por conhecimento, apaixonado por tecnologia e estou batalhando para iniciar minha carreira como programador.</p>
+        </section>
+        <section data-scroll-index="2" class="comp">
+            <h2>Competências</h2>
+            <p>Possuo conhecimentos de lógica e estruturas de programação, já tive contato com algumas linguagens como C, Python e JavaScript, conhecimentos de armazenamento cloud e MySQL
+                e dinâmica de trabalho em equipe. 
+            </p>
+        </section>
+        <section data-scroll-index="3" class="projetos">
+            <h2>Projetos</h2>
+            <p>Link para repositório GitHub</p>
+        </section>
+    </main>
+    <a href="#" class="logo"><img src="/READEME.md/img/logo.png" ></a>
+    <script src="/READEME.md/js/jquery.js"></script>
+    <script src="/READEME.md/js/scrollit.min.js"></script>
+
+    <script>
+        $(function(){
+            $.scrollIt();
+            });
+    </script>
+    
+    <footer>
+        <p class="copyright">&copy; Caio Eduardo Mazzoleni - 2022</p>
+    </footer>
+</body>
+</html>
